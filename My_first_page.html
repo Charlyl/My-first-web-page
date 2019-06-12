@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
 <title>My first web page</title>
+<link href="style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
     <h1>This is my first web page</h1>
 <h2>What this is</h2>
 <p>A simple page put together using HTML</p>
 <h2>Why this is</h2>
-<p>To learn HTML</p>
+<p id="HTML">To learn HTML</p>
+<div class="oredered">
 <ol>
 <li>To learn HTML</li>
 <li>To show off</li>
 <li>Because I've fallen in love with 
     my computer and want to give her some HTML loving.</li>
 </ol>
+</div>
+<div id="unordered">
 <ul>
         <li>To my boss</li>
         <li>To my friends</li>
@@ -25,12 +29,14 @@
             my computer and want to give her 
             some HTML loving.</li>
     </ul>
+    </div>
    <h2>Where to find the tutorial</h2>
    <p>
        <a href="http://www.htmldog.com">HTML Dog</a>
        <br>
        <h3>This is ME</h3>
-     <img src="/home/yelizaveta/Desktop/html/photo/59727227_2048297218629168_3553459299927719936_n.jpg" width="135.25" height="240">
+       <div class="image"></div>
+            <img src="/home/yelizaveta/Desktop/html/photo/59727227_2048297218629168_3553459299927719936_n.jpg" width="135.25" height="240">
    </p>
    <p><h3>My Forms on web</h3></p>
   <form action="get.html" method="GET" autocomplete="on">
@@ -40,7 +46,6 @@
            <p>Try this</p>
            <p>
                <input type="radio" name="trythis" value="married">Married</p>
-            <p><input type="radio" name="trythis" value="single">Single</p>  
         <p><input type="button" name="submit" value="DONE"></p>
         <select>
             <option>Option 1</option>
