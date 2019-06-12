@@ -11,13 +11,36 @@ body {
   font-size: 14px;
   color: navy;
 }
+#unordered, title {background-color: navy;}
 title {
   text-transform: uppercase;
 }
-.unordered {
+#unordered {
   text-align: center;
   font-family: Garamond;
   font-weight: bold;
+  color: white;
+  margin: 40px;
+  padding: 20px;
+  }
+.oredered{
+  text-align: center;
+}
+a {
+  color: white;
+text-align: center;
+background-color: navy;
+text-decoration: aquamarine;
+margin: 10px;
+padding: 10px;
+border: rgb(106, 106, 241) 2px solid;
+
+}
+#HTML {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 22px;
 }
 h1 {
   grid-row: 1 / span 4;
